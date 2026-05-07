@@ -1,45 +1,12 @@
 [
   {
-    "title": "ون بيس - One Piece",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtY2ZkN200N2MzLTk1OTUtMTZkZjVlOTY0ZGRjXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
-    "category": "أنمي",
+    "title": "جهاز الخدمة السرية",
+    "poster": "https://image.tmdb.org/t/p/w500/f7tksyddK3VvismfoWCwpXPqz0x.jpg",
+    "category": "مسلسلات",
     "episodes": [
       {
-        "name": "الحلقة 1100",
-        "url": "https://www.w3schools.com/html/mov_bbb.mp4"
-      }
-    ]
-  },
-  {
-    "title": "قاتل الشياطين",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZjZjNzI5MDctY2YyZC00NmM0LWEwNjMtODIwMTlmMzk3NzU0XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
-    "category": "أنمي",
-    "episodes": [
-      {
-        "name": "الحلقة 1",
-        "url": "https://www.w3schools.com/html/mov_bbb.mp4"
-      }
-    ]
-  },
-  {
-    "title": "The Dark Knight",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
-    "category": "أفلام",
-    "episodes": [
-      {
-        "name": "الفيلم كامل",
-        "url": "https://www.w3schools.com/html/mov_bbb.mp4"
-      }
-    ]
-  },
-  {
-    "title": "فيلم سوبر ماريو جالاكسي",
-    "poster": "https://image.tmdb.org/t/p/w500/rkbRv8dOhWOhIidPyOaJYhtmcy.jpg",
-    "category": "أفلام",
-    "episodes": [
-      {
-        "name": "مشاهدة الفيلم",
-        "url": "https://vidsrc.to/embed/movie/1226863"
+        "name": "مشاهدة الآن",
+        "url": "https://vidsrc.me/embed/tv?tmdb=287450&season=1&episode=1"
       }
     ]
   }
