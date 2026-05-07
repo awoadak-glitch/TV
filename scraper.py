@@ -4,7 +4,7 @@ import base64
 
 # --- البيانات الأساسية ---
 # تأكد أن التوكن الذي وضعته هو الأخير الذي يبدأ بـ Github_pat_...
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
 TMDB_API_KEY = "62571b988e8d17fac56d5240f5610ef0"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
