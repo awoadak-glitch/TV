@@ -4,17 +4,17 @@ import json
 import base64
 import time
 
-# الإعدادات
+# الإعدادات - تأكد من وجود السر MY_GITHUB_TOKEN
 GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
 TMDB_API_KEY = "62571b988e8d17fac56d5240f5610ef0"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
 
-def get_100_best_items():
-    print("🎬 جاري تحضير 100 عنصر مع نظام السيرفرات الاحتياطية...")
-    all_data = []
+def get_verified_content():
+    print("🎬 جاري جلب 100 عنصر مع أقوى سيرفرات المشاهدة العالمية...")
+    results = []
     
-    for page in range(1, 6): # سحب 100 عنصر
+    for page in range(1, 6):
         try:
             url = f"https://api.themoviedb.org/3/trending/all/week?api_key={TMDB_API_KEY}&language=ar&page={page}"
             res = requests.get(url, timeout=15).json()
@@ -26,27 +26,30 @@ def get_100_best_items():
                 
                 if not title: continue
 
-                # تركيب الروابط لثلاثة سيرفرات مختلفة لضمان التشغيل
-                # سيرفر 1 (vidsrc.me) - الأكثر استقراراً
-                s1 = f"https://vidsrc.me/embed/{'movie' if m_type == 'movie' else 'tv'}?tmdb={tmdb_id}"
-                # سيرفر 2 (vidsrc.xyz) - بديل قوي
-                s2 = f"https://vidsrc.xyz/embed/{'movie' if m_type == 'movie' else 'tv'}?tmdb={tmdb_id}"
-                # سيرفر 3 (superembed) - احتياطي
-                s3 = f"https://multiembed.mov/?video_id={tmdb_id}&tmdb=1"
+                # --- نظام السيرفرات المتعددة لتفادي "رفض الاتصال" ---
+                # سيرفر 1: Vidsrc.xyz (الجيل الجديد)
+                s1 = f"https://vidsrc.xyz/embed/{'movie' if m_type == 'movie' else 'tv'}?tmdb={tmdb_id}"
+                
+                # سيرفر 2: SuperEmbed (مستقر جداً ونادراً ما يُحظر)
+                s2 = f"https://multiembed.mov/?video_id={tmdb_id}&tmdb=1"
+                
+                # سيرفر 3: 2Embed (الاحتياطي العالمي)
+                s3 = f"https://www.2embed.cc/embed{'movie' if m_type == 'movie' else 'tv'}?tmdb={tmdb_id}"
 
-                all_data.append({
+                results.append({
                     "title": title,
                     "poster": f"https://image.tmdb.org/t/p/w500{item.get('poster_path')}",
                     "category": "أفلام" if m_type == 'movie' else "مسلسلات",
                     "episodes": [
-                        {"name": "سيرفر 1 (رئيسي)", "url": s1},
-                        {"name": "سيرفر 2 (سريع)", "url": s2},
-                        {"name": "سيرفر 3 (احتياطي)", "url": s3}
+                        {"name": "السيرفر الأساسي (vidsrc)", "url": s1},
+                        {"name": "السيرفر السريع (Super)", "url": s2},
+                        {"name": "سيرفر الطوارئ (2Embed)", "url": s3}
                     ]
                 })
-            time.sleep(0.2)
+            time.sleep(0.3)
         except: continue
-    return all_data
+            
+    return results
 
 def upload_to_github(data):
     api_url = f"https://api.github.com/repos/{REPO_NAME}/contents/{FILE_PATH}"
@@ -56,11 +59,11 @@ def upload_to_github(data):
     if res.status_code == 200:
         sha = res.json()['sha']
         content = base64.b64encode(json.dumps(data, indent=2, ensure_ascii=False).encode('utf-8')).decode('utf-8')
-        payload = {"message": "تحديث 100 عنصر بنظام السيرفرات المتعددة", "content": content, "sha": sha}
+        payload = {"message": "تحديث 100 عنصر بسيرفرات عالمية", "content": content, "sha": sha}
         requests.put(api_url, headers=headers, json=payload)
-        print(f"✅ تم الرفع! موقعك الآن يحتوي على {len(data)} عنصر مع خيارات تشغيل متعددة.")
+        print(f"✅ مبروك! موقعك يحتوي الآن على {len(data)} عنصر جاهزة للمشاهدة.")
 
 if __name__ == "__main__":
-    mega_data = get_100_best_items()
-    if mega_data:
-        upload_to_github(mega_data)
+    final_data = get_verified_content()
+    if final_data:
+        upload_to_github(final_data)
