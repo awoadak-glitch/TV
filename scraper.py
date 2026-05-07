@@ -11,12 +11,12 @@ TMDB_API_KEY = "62571b988e8d17fac56d5240f5610ef0"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
 
-def get_content_with_subs():
-    print("🎬 جاري سحب الأفلام وتفعيل خيارات الترجمة...")
+def get_pro_content():
+    print("🎬 جاري جلب محتوى بروابط تدعم الترجمة التلقائية...")
     new_results = []
     
-    # صفحات عشوائية للتنوع
-    random_pages = random.sample(range(1, 100), 10) 
+    # اختيار صفحات عشوائية لزيادة العدد والتنوع
+    random_pages = random.sample(range(1, 200), 12) 
     
     for page in random_pages:
         try:
@@ -30,20 +30,21 @@ def get_content_with_subs():
                 
                 if not title or not tmdb_id: continue
 
-                # --- حلول الترجمة ---
-                # 1. سيرفر 2Embed مع أمر اللغة العربية
-                s1_url = f"https://www.2embed.cc/embed{'movie' if m_type == 'movie' else 'tv'}/{tmdb_id}{'' if m_type == 'movie' else '&s=1&e=1'}&lang=ar"
+                # --- السيرفرات الذهبية للترجمة حالياً ---
                 
-                # 2. سيرفر Vidsrc.pro (الأفضل حالياً في الترجمة التلقائية)
-                s2_url = f"https://vidsrc.pro/embed/{m_type}/{tmdb_id}{'' if m_type == 'movie' else '/1/1'}"
+                # السيرفر 1: Vidsrc.xyz (يدعم ترجمة عربية مدمجة بمجرد التشغيل)
+                s1 = f"https://vidsrc.xyz/embed/{'movie' if m_type == 'movie' else 'tv'}?tmdb={tmdb_id}"
+                
+                # السيرفر 2: Embed.su (يحتوي على خيار ترجمة عربية ممتاز في الإعدادات)
+                s2 = f"https://embed.su/embed/{'movie' if m_type == 'movie' else 'tv'}/{tmdb_id}"
 
                 new_results.append({
                     "title": title,
                     "poster": f"https://image.tmdb.org/t/p/w500{item.get('poster_path')}",
                     "category": "أفلام" if m_type == 'movie' else "مسلسلات",
                     "episodes": [
-                        {"name": "سيرفر 1 (ترجمة يدوية - اضغط CC)", "url": s1_url},
-                        {"name": "سيرفر 2 (ترجمة تلقائية - مدمجة)", "url": s2_url}
+                        {"name": "سيرفر الترجمة (Vidsrc)", "url": s1},
+                        {"name": "سيرفر بديل (Embed.su)", "url": s2}
                     ]
                 })
             time.sleep(0.1)
@@ -63,26 +64,26 @@ def update_github():
         content = base64.b64decode(file_info['content']).decode('utf-8')
         old_data = json.loads(content)
 
-    new_items = get_content_with_subs()
+    new_items = get_pro_content()
     
-    # منع التكرار
+    # منع التكرار بناءً على العنوان لضمان التنوع
     existing_titles = {item['title'] for item in old_data}
     for item in new_items:
         if item['title'] not in existing_titles:
             old_data.append(item)
     
-    # الاحتفاظ بآخر 10,000
-    final_data = old_data[-10000:] 
+    # الحد الأقصى للملف (5000 عنصر لضمان السرعة)
+    final_data = old_data[-5000:] 
 
     content_encoded = base64.b64encode(json.dumps(final_data, indent=2, ensure_ascii=False).encode('utf-8')).decode('utf-8')
     payload = {
-        "message": "تحديث السيرفرات لدعم الترجمة العربية",
+        "message": "تحديث السيرفرات لنظام الترجمة V4",
         "content": content_encoded,
         "sha": sha
     }
     
     requests.put(api_url, headers=headers, json=payload)
-    print(f"🚀 تم التحديث بنجاح! المجموع: {len(final_data)}")
+    print(f"🚀 تم التحديث! المجموع الحالي: {len(final_data)}")
 
 if __name__ == "__main__":
     update_github()
