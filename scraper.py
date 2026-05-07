@@ -4,126 +4,126 @@ import base64
 import cloudscraper
 from bs4 import BeautifulSoup
 import re
+import time
 
-# بياناتك مدمجة مباشرة
+# بيانات الوصول الخاصة بك
 GITHUB_TOKEN = "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"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
+BASE_URL = "https://w1.anime4up.rest"
 
-def get_video_data(url, category):
-    # إنشاء متصفح يتجاوز Cloudflare
-    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+def get_latest_100_links():
+    scraper = cloudscraper.create_scraper()
+    all_links = []
+    # الموقع يعرض عدداً معيناً في الصفحة الرئيسية، سنحاول جمع أول 100 رابط
     try:
-        response = scraper.get(url)
+        response = scraper.get(BASE_URL)
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # 1. استخراج اسم الحلقة والأنمي
-        title_raw = soup.find('h1').text.strip() if soup.find('h1') else "Unknown"
-        # تنظيف الاسم: ون بيس الحلقة 1 -> ون بيس
-        series_name = re.split(r' الحلقة| Episode', title_raw)[0].strip()
-        
-        # 2. استخراج البوستر (صورة الأنمي)
-        poster = ""
-        img_tag = soup.find('img', {'class': 'img-responsive'})
-        if img_tag:
-            poster = img_tag.get('src')
-        
-        # 3. استخراج رابط سيرفر المشاهدة
-        video_url = ""
-        # البحث في قائمة السيرفرات (عن سيرفر 4up أو السيرفر الرئيسي)
-        servers_list = soup.find('ul', {'id': 'episode-servers'})
-        if servers_list:
-            links = servers_list.find_all('a')
-            for link in links:
-                # نفضل السيرفرات التي تحتوي على رابط مباشر في data-url
-                temp_url = link.get('data-url')
-                if temp_url and 'http' in temp_url:
-                    video_url = temp_url
-                    break
-        
-        # إذا لم ينجح، نبحث عن أول iframe في الصفحة
-        if not video_url:
-            iframe = soup.find('iframe')
-            if iframe:
-                video_url = iframe.get('src')
-
-        if not video_url:
-            print("تحذير: لم يتم العثور على رابط فيديو، قد يحتاج الموقع لتحديث منطق السحب.")
-
-        return {
-            "series": series_name,
-            "ep_name": title_raw,
-            "poster": poster,
-            "url": video_url,
-            "category": category
-        }
+        # البحث عن روابط الحلقات في الصفحة الرئيسية
+        items = soup.find_all('div', {'class': 'anime-card-container'})
+        for item in items:
+            link_tag = item.find('a')
+            if link_tag:
+                all_links.append(link_tag['href'])
+            if len(all_links) >= 100: break
+            
+        print(f"✅ تم العثور على {len(all_links)} رابط لتحديثها.")
+        return all_links
     except Exception as e:
-        print(f"حدث خطأ أثناء السحب: {e}")
-        return None
+        print(f"❌ خطأ في جلب القائمة: {e}")
+        return []
 
-def update_db(data):
+def scrape_episode_details(url):
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome','platform': 'windows','mobile': False})
+    try:
+        res = scraper.get(url)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        
+        # اسم الحلقة الكامل
+        full_title = soup.find('h1').text.strip()
+        # استخراج اسم الأنمي فقط
+        series_name = re.split(r' الحلقة| Episode', full_title)[0].strip()
+        
+        # البوستر
+        img = soup.find('img', {'class': 'img-responsive'})
+        poster = img['src'] if img else ""
+        
+        # رابط سيرفر المشاهدة
+        video_url = ""
+        server_list = soup.find('ul', {'id': 'episode-servers'})
+        if server_list:
+            first_link = server_list.find('a')
+            video_url = first_link.get('data-url') or first_link.get('href')
+
+        if video_url:
+            return {
+                "series": series_name,
+                "ep_name": full_title,
+                "poster": poster,
+                "url": video_url
+            }
+    except:
+        return None
+    return None
+
+def update_github_database(new_items):
     scraper = cloudscraper.create_scraper()
     api_url = f"https://api.github.com/repos/{REPO_NAME}/contents/{FILE_PATH}"
-    headers = {
-        "Authorization": f"token {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json"
-    }
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
 
-    # جلب data.json الحالي
+    # جلب الداتا الحالية
     res = scraper.get(api_url, headers=headers)
-    if res.status_code != 200:
-        print(f"خطأ في الوصول للمستودع: {res.status_code}")
-        return
-
+    if res.status_code != 200: return
+    
     file_info = res.json()
-    content = base64.b64decode(file_info['content']).decode('utf-8')
-    db = json.loads(content)
+    db = json.loads(base64.b64decode(file_info['content']).decode('utf-8'))
 
-    # البحث عن الأنمي لتحديثه أو إضافته
-    found = False
-    for item in db:
-        if item['title'] == data['series']:
-            # إضافة الحلقة للمجموعة إذا لم تكن موجودة مسبقاً
-            if not any(ep['url'] == data['url'] for ep in item.get('episodes', [])):
-                if 'episodes' not in item: item['episodes'] = []
-                item['episodes'].append({"name": data['ep_name'], "url": data['url']})
-            found = True
-            break
-    
-    if not found:
-        db.append({
-            "title": data['series'],
-            "poster": data['poster'],
-            "category": data['category'],
-            "episodes": [{"name": data['ep_name'], "url": data['url']}]
-        })
+    updates_count = 0
+    for data in new_items:
+        found = False
+        for item in db:
+            if item['title'] == data['series']:
+                # إذا الأنمي موجود، أضف الحلقة فقط إذا لم تكن موجودة
+                if not any(ep['url'] == data['url'] for ep in item['episodes']):
+                    item['episodes'].append({"name": data['ep_name'], "url": data['url']})
+                    updates_count += 1
+                found = True
+                break
+        
+        if not found:
+            # إذا أنمي جديد تماماً، أضفه للمكتبة
+            db.append({
+                "title": data['series'],
+                "poster": data['poster'],
+                "category": "أنمي",
+                "episodes": [{"name": data['ep_name'], "url": data['url']}]
+            })
+            updates_count += 1
 
-    # رفع التحديث إلى GitHub
-    updated_json = json.dumps(db, indent=2, ensure_ascii=False)
-    new_content_b64 = base64.b64encode(updated_json.encode('utf-8')).decode('utf-8')
-    
-    payload = {
-        "message": f"إضافة حلقة: {data['ep_name']}",
-        "content": new_content_b64,
-        "sha": file_info['sha']
-    }
-    
-    put_res = scraper.put(api_url, headers=headers, json=payload)
-    if put_res.status_code == 200:
-        print(f"✅ نجحت العملية: تم إضافة {data['ep_name']} إلى المكتبة.")
+    if updates_count > 0:
+        # رفع التحديثات
+        updated_json = json.dumps(db, indent=2, ensure_ascii=False)
+        payload = {
+            "message": f"Auto-update: Added/Updated {updates_count} items",
+            "content": base64.b64encode(updated_json.encode('utf-8')).decode('utf-8'),
+            "sha": file_info['sha']
+        }
+        scraper.put(api_url, headers=headers, json=payload)
+        print(f"🚀 تم تحديث المكتبة بـ {updates_count} عنصر جديد.")
     else:
-        print(f"❌ فشل الرفع: {put_res.text}")
+        print("😴 لا توجد تحديثات جديدة لإضافتها.")
 
 if __name__ == "__main__":
-    event_path = os.getenv('GITHUB_EVENT_PATH')
-    if event_path:
-        with open(event_path, 'r') as f:
-            event_data = json.load(f)
-            inputs = event_data.get('inputs', {})
-            target = inputs.get('target_url')
-            cat = inputs.get('category', 'أنمي')
-            
-            if target:
-                result = get_video_data(target, cat)
-                if result:
-                    update_db(result)
+    links = get_latest_100_links()
+    final_data = []
+    
+    for i, link in enumerate(links):
+        print(f"جاري معالجة ({i+1}/100): {link}")
+        details = scrape_episode_details(link)
+        if details:
+            final_data.append(details)
+        time.sleep(1) # تأخير بسيط لتجنب الحظر
+
+    if final_data:
+        update_github_database(final_data)
