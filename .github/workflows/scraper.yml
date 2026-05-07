@@ -1,7 +1,8 @@
 name: Automatic 100 Anime Scraper
+
 on:
   schedule:
-    - cron: '0 */2 * * *' # يعمل تلقائياً كل 6 ساعات
+    - cron: '0 */6 * * *' # تم التعديل ليعمل كل 6 ساعات فعلياً (0 */6)
   workflow_dispatch: # زر التشغيل اليدوي
 
 jobs:
@@ -20,4 +21,7 @@ jobs:
         run: pip install requests beautifulsoup4 cloudscraper
 
       - name: Run Auto Scraper
+        env:
+          # هذا هو السطر السحري الذي يمرر التوكن من الإعدادات للسكربت
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python scraper.py
