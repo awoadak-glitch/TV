@@ -31,5 +31,16 @@
         "url": "https://www.w3schools.com/html/mov_bbb.mp4"
       }
     ]
+  },
+  {
+    "title": "فيلم سوبر ماريو جالاكسي",
+    "poster": "https://image.tmdb.org/t/p/w500/rkbRv8dOhWOhIidPyOaJYhtmcy.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "مشاهدة الفيلم",
+        "url": "https://vidsrc.to/embed/movie/1226863"
+      }
+    ]
   }
 ]
