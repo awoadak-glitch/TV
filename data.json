@@ -1,12 +1,1901 @@
 [
   {
-    "title": "جهاز الخدمة السرية",
-    "poster": "https://image.tmdb.org/t/p/w500/f7tksyddK3VvismfoWCwpXPqz0x.jpg",
+    "title": "الرفاق",
+    "poster": "https://image.tmdb.org/t/p/w500/gUncM91sPUdNAQhDFgEIVd4kLSf.jpg",
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "مشاهدة الآن",
-        "url": "https://vidsrc.me/embed/tv?tmdb=287450&season=1&episode=1"
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=76479"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=76479"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=76479&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "في كل جسد حكاية",
+    "poster": "https://image.tmdb.org/t/p/w500/c2m0KshJuJMxVhPaB352U8Tuk5E.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1007757"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1007757"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1007757&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "مايكل",
+    "poster": "https://image.tmdb.org/t/p/w500/3azV06hVDVUyxQdJyJYB5POimKv.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=936075"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=936075"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=936075&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "The Devil Wears Prada 2",
+    "poster": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1314481"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1314481"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1314481&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "فيلم سوبر ماريو جالاكسي",
+    "poster": "https://image.tmdb.org/t/p/w500/rkbRv8dOhWOhIidPyOaJYhtmcy.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1226863"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1226863"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1226863&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "مورتال كومبات 2",
+    "poster": "https://image.tmdb.org/t/p/w500/jw9FFEMZwulB144UCMCSeBCxLfs.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=931285"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=931285"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=931285&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "هوبرز",
+    "poster": "https://image.tmdb.org/t/p/w500/mVsBamMTXXJ0jr5Lt4Ua2cnBixa.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1327819"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1327819"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1327819&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "ديرديفل: يولد من جديد",
+    "poster": "https://image.tmdb.org/t/p/w500/lWQlomW2fcpJdXJckFs3FKMVKkb.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=202555"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=202555"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=202555&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "من",
+    "poster": "https://image.tmdb.org/t/p/w500/oSCxtwOFmdVZd4BcAaMTch0qFPf.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=124364"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=124364"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=124364&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1266127"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1266127"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1266127&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "الدراما",
+    "poster": "https://image.tmdb.org/t/p/w500/fLFXaQzRYbgTZQ17FBVZvxBbWgY.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1325734"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1325734"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1325734&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "نشوة",
+    "poster": "https://image.tmdb.org/t/p/w500/iTmIT0hWJeKHg3BTEsSiDSmtKTL.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=85552"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=85552"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=85552&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "مشروع هيل ماري",
+    "poster": "https://image.tmdb.org/t/p/w500/58obglIBAtp4xvZG7nvkPpaaCbN.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=687163"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=687163"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=687163&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "المفترس الأقوى",
+    "poster": "https://image.tmdb.org/t/p/w500/ryIiQrFfWWosjxLEeynziLEobea.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1318447"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1318447"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1318447&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "رجل في قلب النار",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=223386"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=223386"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=223386&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "القلعة",
+    "poster": "https://image.tmdb.org/t/p/w500/2WUnilzFVAqy1q0Kk5ece9vCtyz.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=114922"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=114922"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=114922&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "حرب النجوم: مول - سيد الظلال",
+    "poster": "https://image.tmdb.org/t/p/w500/cCUQAclLHCDQH6nduHwuqMdezmm.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=289219"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=289219"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=289219&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "低智商犯罪",
+    "poster": "https://image.tmdb.org/t/p/w500/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=272432"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=272432"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=272432&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "سيقتلونك",
+    "poster": "https://image.tmdb.org/t/p/w500/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1292695"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1292695"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1292695&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "ون بيس",
+    "poster": "https://image.tmdb.org/t/p/w500/zftx59xeJOJtsmRdwqo4rn6zNpj.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=37854"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=37854"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=37854&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Monarch: Legacy of Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7LBbaEaLSbqdviBYaSS1rRPMnrs.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=202411"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=202411"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=202411&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Legends",
+    "poster": "https://image.tmdb.org/t/p/w500/C8EUuUuAItHgXuggvxofpBBogF.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=262280"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=262280"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=262280&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Widow's Bay",
+    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=270476"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=270476"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=270476&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "ذا بير",
+    "poster": "https://image.tmdb.org/t/p/w500/hih5aTwgmHhMuyVSbyaPBnBJftt.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=136315"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=136315"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=136315&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "رَجُل الكستناء",
+    "poster": "https://image.tmdb.org/t/p/w500/wLZTY1apb8895dmj9QLHYRT51UZ.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=127865"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=127865"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=127865&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "المبتدئ",
+    "poster": "https://image.tmdb.org/t/p/w500/t3vSMQWjQkEXCE9f912esWAW5vF.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=79744"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=79744"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=79744&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "The Sheep Detectives",
+    "poster": "https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1301421"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1301421"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1301421&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/jKPWwsbAM6HKURPYQ1eG8DmKMKn.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1430077"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1430077"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1430077&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "المنيع",
+    "poster": "https://image.tmdb.org/t/p/w500/pKf7GfJcuU4ypEUjGnts2D83oqL.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=95557"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=95557"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=95557&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "أرسل المساعدة",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1198994"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1198994"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1198994&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "الحياة في عالم مختلف من الصفر",
+    "poster": "https://image.tmdb.org/t/p/w500/x221LECWojgDTnXhWsaMIVmgM5h.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=65942"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=65942"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=65942&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "جيريغو: أمنيات قاتلة",
+    "poster": "https://image.tmdb.org/t/p/w500/oKSt05GBc2ZZ5G2BxTqLikNml1V.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=285838"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=285838"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=285838&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "أكاديمية الأبطال",
+    "poster": "https://image.tmdb.org/t/p/w500/a3GlsRvZx7i1a77IVMxuvR7TZj0.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=65930"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=65930"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=65930&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "เลือดรักนักฆ่า",
+    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1630423"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1630423"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1630423&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "The House of the Spirits",
+    "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=259702"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=259702"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=259702&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Cold Storage",
+    "poster": "https://image.tmdb.org/t/p/w500/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=696393"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=696393"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=696393&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "أفاتار: النار و الرماد",
+    "poster": "https://image.tmdb.org/t/p/w500/k4cbKNMEA1v1Tndc44eNVs2gUGs.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=83533"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=83533"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=83533&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "El yerno",
+    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1651233"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1651233"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1651233&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "الأوديسة",
+    "poster": "https://image.tmdb.org/t/p/w500/kVYFP3YKVgJEvKCbRdBMBbXVd3N.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1368337"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1368337"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1368337&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "أرض الذهب",
+    "poster": "https://image.tmdb.org/t/p/w500/exAqL4Hbh2M712QlFwGDTqZeiAl.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=278113"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=278113"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=278113&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Prisoner",
+    "poster": "https://image.tmdb.org/t/p/w500/zDjl6FOCuCy8gyug54VDlLgxa1l.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=311858"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=311858"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=311858&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "M.I.A.",
+    "poster": "https://image.tmdb.org/t/p/w500/8voJ9AKuyrSyzxfoxwR4tpio82h.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=262388"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=262388"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=262388&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "飞驰人生3",
+    "poster": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1462229"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1462229"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1462229&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "الجريمة 101",
+    "poster": "https://image.tmdb.org/t/p/w500/cZY1IOguquyYhJdRbuLcdypXnDA.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1171145"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1171145"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1171145&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "مأوى",
+    "poster": "https://image.tmdb.org/t/p/w500/wDHhmyIKfq5cZTYmRal4IR4y85e.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1290821"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1290821"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1290821&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "سيدتي العزيزة",
+    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1239198"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1239198"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1239198&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "佳偶天成",
+    "poster": "https://image.tmdb.org/t/p/w500/vx4qAH1kt7WzqLoy5sGCZ7j0yEr.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=272715"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=272715"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=272715&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "فريرن: ما وراء نهاية الرحلة",
+    "poster": "https://image.tmdb.org/t/p/w500/eHLecWYYPbcJOPuc1d2J0u2KfzD.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=209867"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=209867"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=209867&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "JUJUTSU KAISEN",
+    "poster": "https://image.tmdb.org/t/p/w500/feS8k6Wy8b0mLGzJLwmEyVkZ9xx.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=95479"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=95479"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=95479&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "التاج المثالي",
+    "poster": "https://image.tmdb.org/t/p/w500/7ZlMvq3rt5taL8gxNai2xqpHZLb.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=278573"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=278573"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=278573&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Star Wars: The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/fsSMj6TJ6qtMnpg6UIw8TzUeEyE.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1228710"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1228710"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1228710&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "黑夜告白",
+    "poster": "https://image.tmdb.org/t/p/w500/qUhPr2XpczJpnQnXIqJjYaCxOli.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=254498"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=254498"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=254498&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "فيلم المومياء للمخرج لي كرونين",
+    "poster": "https://image.tmdb.org/t/p/w500/vQPzYAGCebXjCdHlWIlRJPRcE3S.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1304313"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1304313"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1304313&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "المارشالات",
+    "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=290856"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=290856"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=290856&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Scary Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/2OHkZEqQL4OjYXIqWopJu0BijTD.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1273221"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1273221"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1273221&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "\"Wuthering Heights\"",
+    "poster": "https://image.tmdb.org/t/p/w500/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1316092"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1316092"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1316092&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "GOAT",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1297842"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1297842"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1297842&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Evil Dead Burn",
+    "poster": "https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1212763"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1212763"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1212763&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "مغامرات جوجو العجيبة",
+    "poster": "https://image.tmdb.org/t/p/w500/k8iHQ2IU7j5FprP4oWrp03ClqJ9.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=45790"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=45790"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=45790&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "رجل العائلة",
+    "poster": "https://image.tmdb.org/t/p/w500/9UMBs5ijkwlcnEdZijDvpFV59ti.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=1434"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=1434"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1434&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "دكتور ستون",
+    "poster": "https://image.tmdb.org/t/p/w500/fxmigTNZHRfBQ7h13vs8K5H5f77.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=86031"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=86031"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=86031&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/oizLyreZmnOOE6EKEcQnLA0n4iT.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1110034"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1110034"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1110034&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Toy Story 5",
+    "poster": "https://image.tmdb.org/t/p/w500/dWIAOC9EKFehGs3CYvDQih3hxaG.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1084244"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1084244"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1084244&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "For All Mankind",
+    "poster": "https://image.tmdb.org/t/p/w500/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=87917"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=87917"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=87917&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "ورشة قبعة الساحرة",
+    "poster": "https://image.tmdb.org/t/p/w500/1qGSBnrANHLX8C7KqGuPDCylns2.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=196950"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=196950"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=196950&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "【推しの子】",
+    "poster": "https://image.tmdb.org/t/p/w500/FfnqgjPh4XqqPhYIFuBC5LlDtV.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=203737"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=203737"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=203737&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "آل التنين",
+    "poster": "https://image.tmdb.org/t/p/w500/3cV7NLkN8WY5LECzLxI73PXE5Oq.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=94997"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=94997"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=94997&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "R.J. Decker",
+    "poster": "https://image.tmdb.org/t/p/w500/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=302074"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=302074"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=302074&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Forbidden Fruits",
+    "poster": "https://image.tmdb.org/t/p/w500/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1450527"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1450527"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1450527&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "نصف رجل",
+    "poster": "https://image.tmdb.org/t/p/w500/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=257994"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=257994"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=257994&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "الخادمة",
+    "poster": "https://image.tmdb.org/t/p/w500/xWbrjqGtZn8Dp6uMPzBz6mKvuk3.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1368166"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1368166"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1368166&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Cape Fear",
+    "poster": "https://image.tmdb.org/t/p/w500/64gCOK6NKcXVI2amtVKk3Xx7cbC.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=277439"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=277439"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=277439&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "اسمي أغنيتا",
+    "poster": "https://image.tmdb.org/t/p/w500/2YOVL5eZhd4L6Cc1yxqq12ClLzF.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=829487"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=829487"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=829487&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Stranger Things",
+    "poster": "https://image.tmdb.org/t/p/w500/zrNz2zVv6wCKvzU0vNTkt23cWES.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=66732"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=66732"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=66732&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "الفزع",
+    "poster": "https://image.tmdb.org/t/p/w500/3KejXRET7QwkuryXe5tOUQqAW2D.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=75191"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=75191"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=75191&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "اجتياح أسماك القرش",
+    "poster": "https://image.tmdb.org/t/p/w500/j4tXlCZgpc7GEwpffxf2jmfZtH5.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1290417"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1290417"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1290417&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Backrooms",
+    "poster": "https://image.tmdb.org/t/p/w500/vpkNMkbisv5cTaIfCzUduYzXnjb.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1083381"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1083381"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1083381&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Lord of the Flies",
+    "poster": "https://image.tmdb.org/t/p/w500/zD50ejpus5rNidj6CBr4Ml59KOL.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=270572"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=270572"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=270572&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "أفاتار: آخر مسخّر هواء – الأصداء والتداعيات",
+    "poster": "https://image.tmdb.org/t/p/w500/29Jdsak3SrwGds5k1t43kH6Khed.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=980431"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=980431"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=980431&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "مستشفى بيتسبرغ",
+    "poster": "https://image.tmdb.org/t/p/w500/qkrTg6VkbIs99rRerpxVFuxerCC.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=250307"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=250307"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=250307&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Masters of the Universe",
+    "poster": "https://image.tmdb.org/t/p/w500/nm2ianYVp7OXElUZVeeAbNTqBLr.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=454639"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=454639"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=454639&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "嫌な顔されながらおパンツ見せてもらいたい",
+    "poster": "https://image.tmdb.org/t/p/w500/ljmg6AiM56PlV9aGLtIqfGOamUA.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=80867"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=80867"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=80867&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "The Testaments",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=287527"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=287527"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=287527&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Hard Matter",
+    "poster": "https://image.tmdb.org/t/p/w500/7yy4cVr9obHOZC9lj3uct4DwDEn.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=949536"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=949536"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=949536&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "سبونج بوب سكوير بانتس",
+    "poster": "https://image.tmdb.org/t/p/w500/ft0OsFXGjkmDETpncOqrFrRaxff.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=387"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=387"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=387&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Margo's Got Money Troubles",
+    "poster": "https://image.tmdb.org/t/p/w500/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=245318"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=245318"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=245318&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "زوتروبوليس ٢",
+    "poster": "https://image.tmdb.org/t/p/w500/qL1MBO7f8V7jXSB46SgpetwqNaV.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1084242"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1084242"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1084242&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Minions & Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/uYs4IJdDQvnrNvVtYBNmjiHqbmF.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1315772"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1315772"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1315772&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "صرخة ٧",
+    "poster": "https://image.tmdb.org/t/p/w500/ny0YBRSwiyGQ5Q1slaS8Q6JcVjm.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1159559"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1159559"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1159559&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "قدرات استثنائية",
+    "poster": "https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=226637"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=226637"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=226637&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "دخيلة",
+    "poster": "https://image.tmdb.org/t/p/w500/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=56570"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=56570"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=56570&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "poster": "https://image.tmdb.org/t/p/w500/pspkSVP39NGa6G2rvK5KlMjvYUe.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=969681"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=969681"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=969681&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "ون بيس",
+    "poster": "https://image.tmdb.org/t/p/w500/b9nSI5cl2bTj7FlhQl4TIoOwvW6.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=111110"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=111110"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=111110&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Scrubs",
+    "poster": "https://image.tmdb.org/t/p/w500/nNNM50G7p9C3n4vgidCiybsIdHA.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=295778"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=295778"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=295778&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "خارج الدائرة",
+    "poster": "https://image.tmdb.org/t/p/w500/oVl01a7R8rfmWrolWtrlPXYQqzj.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=262848"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=262848"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=262848&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Hacks",
+    "poster": "https://image.tmdb.org/t/p/w500/ca5XiEFgyGsI38QT3wEKa1QVGX.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=124101"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=124101"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=124101&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "良陈美锦",
+    "poster": "https://image.tmdb.org/t/p/w500/kVZD96lcpqookwatK2VD6loXZAN.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/tv?tmdb=283952"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=283952"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=283952&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Buen Camino",
+    "poster": "https://image.tmdb.org/t/p/w500/4buulRVfRJcqgkR3AF6ln23TqR6.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1472638"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1472638"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1472638&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Greenland 2: Migration",
+    "poster": "https://image.tmdb.org/t/p/w500/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=840464"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=840464"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=840464&tmdb=1"
+      }
+    ]
+  },
+  {
+    "title": "Charlie the Wonderdog",
+    "poster": "https://image.tmdb.org/t/p/w500/f8Ii1YTnc6urAezfVdIz4Kv5IEd.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "سيرفر 1 (رئيسي)",
+        "url": "https://vidsrc.me/embed/movie?tmdb=1276521"
+      },
+      {
+        "name": "سيرفر 2 (سريع)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1276521"
+      },
+      {
+        "name": "سيرفر 3 (احتياطي)",
+        "url": "https://multiembed.mov/?video_id=1276521&tmdb=1"
       }
     ]
   }
