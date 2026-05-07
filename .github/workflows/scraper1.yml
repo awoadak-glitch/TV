@@ -1,0 +1,23 @@
+name: Automatic 100 Anime Scraper
+on:
+  schedule:
+    - cron: '0 */2 * * *' # يعمل تلقائياً كل 6 ساعات
+  workflow_dispatch: # زر التشغيل اليدوي
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4 cloudscraper
+
+      - name: Run Auto Scraper
+        run: python scraper.py
