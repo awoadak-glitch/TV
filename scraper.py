@@ -1,40 +1,54 @@
+import os
 import json
 import base64
 import cloudscraper
 from bs4 import BeautifulSoup
+import re
 
-# --- البيانات الخاصة بك ---
+# بياناتك مدمجة مباشرة
 GITHUB_TOKEN = "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"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
 
-# هذه المتغيرات سيتم جلبها من الـ Workflow (المدخلات)
-import os
-TARGET_URL = os.getenv('GITHUB_EVENT_INPUTS_TARGET_URL') # سيتم تمريره تلقائياً من الأكشن
-# ملاحظة: في حال التشغيل اليدوي من الأكشن، سنحتاج لاستخدام مكتبة لجلب المدخلات
-# سنبسطها هنا لتعتمد على متغيرات البيئة التي يمررها الـ YAML
-
 def get_video_data(url, category):
-    scraper = cloudscraper.create_scraper()
+    # إنشاء متصفح يتجاوز Cloudflare
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
     try:
         response = scraper.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # استخراج العنوان (من h1 أو og:title)
-        title_raw = soup.find('h1').text.strip() if soup.find('h1') else "عنوان غير معروف"
+        # 1. استخراج اسم الحلقة والأنمي
+        title_raw = soup.find('h1').text.strip() if soup.find('h1') else "Unknown"
+        # تنظيف الاسم: ون بيس الحلقة 1 -> ون بيس
+        series_name = re.split(r' الحلقة| Episode', title_raw)[0].strip()
         
-        # استخراج البوستر
-        img_tag = soup.find('meta', property='og:image')
-        poster = img_tag['content'] if img_tag else "https://via.placeholder.com/300x450?text=No+Poster"
+        # 2. استخراج البوستر (صورة الأنمي)
+        poster = ""
+        img_tag = soup.find('img', {'class': 'img-responsive'})
+        if img_tag:
+            poster = img_tag.get('src')
         
-        # البحث عن رابط الفيديو (الآيفريم)
-        # سنبحث عن أول iframe يحتوي على src
-        iframe = soup.find('iframe')
-        video_url = iframe['src'] if iframe else "#"
+        # 3. استخراج رابط سيرفر المشاهدة
+        video_url = ""
+        # البحث في قائمة السيرفرات (عن سيرفر 4up أو السيرفر الرئيسي)
+        servers_list = soup.find('ul', {'id': 'episode-servers'})
+        if servers_list:
+            links = servers_list.find_all('a')
+            for link in links:
+                # نفضل السيرفرات التي تحتوي على رابط مباشر في data-url
+                temp_url = link.get('data-url')
+                if temp_url and 'http' in temp_url:
+                    video_url = temp_url
+                    break
+        
+        # إذا لم ينجح، نبحث عن أول iframe في الصفحة
+        if not video_url:
+            iframe = soup.find('iframe')
+            if iframe:
+                video_url = iframe.get('src')
 
-        # تنظيف العنوان (إزالة كلمة "حلقة" للحصول على اسم المسلسل)
-        # نفترض أن العنوان: "ون بيس الحلقة 1100" -> المسلسل: "ون بيس"
-        series_name = title_raw.split(" الحلقة")[0].split(" Episode")[0].strip()
+        if not video_url:
+            print("تحذير: لم يتم العثور على رابط فيديو، قد يحتاج الموقع لتحديث منطق السحب.")
 
         return {
             "series": series_name,
@@ -50,23 +64,28 @@ def get_video_data(url, category):
 def update_db(data):
     scraper = cloudscraper.create_scraper()
     api_url = f"https://api.github.com/repos/{REPO_NAME}/contents/{FILE_PATH}"
-    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json"
+    }
 
-    # 1. جلب الملف الحالي
+    # جلب data.json الحالي
     res = scraper.get(api_url, headers=headers)
     if res.status_code != 200:
-        print("فشل في الوصول للملف، ربما المسار خاطئ.")
+        print(f"خطأ في الوصول للمستودع: {res.status_code}")
         return
 
     file_info = res.json()
-    db = json.loads(base64.b64decode(file_info['content']).decode('utf-8'))
+    content = base64.b64decode(file_info['content']).decode('utf-8')
+    db = json.loads(content)
 
-    # 2. تحديث البيانات (نظام المكتبة)
+    # البحث عن الأنمي لتحديثه أو إضافته
     found = False
     for item in db:
         if item['title'] == data['series']:
-            # إضافة الحلقة إذا لم تكن موجودة
-            if not any(ep['url'] == data['url'] for ep in item['episodes']):
+            # إضافة الحلقة للمجموعة إذا لم تكن موجودة مسبقاً
+            if not any(ep['url'] == data['url'] for ep in item.get('episodes', [])):
+                if 'episodes' not in item: item['episodes'] = []
                 item['episodes'].append({"name": data['ep_name'], "url": data['url']})
             found = True
             break
@@ -79,30 +98,32 @@ def update_db(data):
             "episodes": [{"name": data['ep_name'], "url": data['url']}]
         })
 
-    # 3. حفظ ورفع الملف
-    new_content = base64.b64encode(json.dumps(db, indent=2, ensure_ascii=False).encode('utf-8')).decode('utf-8')
-    update_payload = {
-        "message": f"إضافة: {data['ep_name']}",
-        "content": new_content,
+    # رفع التحديث إلى GitHub
+    updated_json = json.dumps(db, indent=2, ensure_ascii=False)
+    new_content_b64 = base64.b64encode(updated_json.encode('utf-8')).decode('utf-8')
+    
+    payload = {
+        "message": f"إضافة حلقة: {data['ep_name']}",
+        "content": new_content_b64,
         "sha": file_info['sha']
     }
     
-    final_res = scraper.put(api_url, headers=headers, json=update_payload)
-    if final_res.status_code == 200:
-        print(f"✅ تم إضافة {data['ep_name']} بنجاح!")
+    put_res = scraper.put(api_url, headers=headers, json=payload)
+    if put_res.status_code == 200:
+        print(f"✅ نجحت العملية: تم إضافة {data['ep_name']} إلى المكتبة.")
     else:
-        print(f"❌ خطأ في الرفع: {final_res.text}")
+        print(f"❌ فشل الرفع: {put_res.text}")
 
-# استدعاء القيم من Workflow Inputs (نحتاج لتعديل بسيط في كيفية قراءة الـ inputs)
 if __name__ == "__main__":
-    # بما أننا نستخدم workflow_dispatch، سنقرأ الملف الذي ينشئه GitHub للحدث
     event_path = os.getenv('GITHUB_EVENT_PATH')
     if event_path:
         with open(event_path, 'r') as f:
             event_data = json.load(f)
-            url = event_data['inputs']['target_url']
-            cat = event_data['inputs']['category']
+            inputs = event_data.get('inputs', {})
+            target = inputs.get('target_url')
+            cat = inputs.get('category', 'أنمي')
             
-            extracted = get_video_data(url, cat)
-            if extracted:
-                update_db(extracted)
+            if target:
+                result = get_video_data(target, cat)
+                if result:
+                    update_db(result)
