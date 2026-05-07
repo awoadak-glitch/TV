@@ -5,16 +5,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=76479"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=76479"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=76479&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=76479"
       }
     ]
   },
@@ -24,35 +24,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1007757"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1007757"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1007757&tmdb=1"
-      }
-    ]
-  },
-  {
-    "title": "مايكل",
-    "poster": "https://image.tmdb.org/t/p/w500/3azV06hVDVUyxQdJyJYB5POimKv.jpg",
-    "category": "أفلام",
-    "episodes": [
-      {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=936075"
       },
       {
-        "name": "سيرفر 2 (سريع)",
-        "url": "https://vidsrc.xyz/embed/movie?tmdb=936075"
-      },
-      {
-        "name": "سيرفر 3 (احتياطي)",
-        "url": "https://multiembed.mov/?video_id=936075&tmdb=1"
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1007757"
       }
     ]
   },
@@ -62,16 +43,35 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1314481"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1314481"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1314481&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1314481"
+      }
+    ]
+  },
+  {
+    "title": "مايكل",
+    "poster": "https://image.tmdb.org/t/p/w500/3azV06hVDVUyxQdJyJYB5POimKv.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "السيرفر الأساسي (vidsrc)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=936075"
+      },
+      {
+        "name": "السيرفر السريع (Super)",
+        "url": "https://multiembed.mov/?video_id=936075&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=936075"
       }
     ]
   },
@@ -81,16 +81,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1226863"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1226863"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1226863&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1226863"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=931285"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=931285"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=931285&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=931285"
       }
     ]
   },
@@ -119,16 +119,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1327819"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1327819"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1327819&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1327819"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=202555"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=202555"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=202555&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=202555"
       }
     ]
   },
@@ -157,35 +157,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=124364"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=124364"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=124364&tmdb=1"
-      }
-    ]
-  },
-  {
-    "title": "Ready or Not 2: Here I Come",
-    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
-    "category": "أفلام",
-    "episodes": [
-      {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1266127"
       },
       {
-        "name": "سيرفر 2 (سريع)",
-        "url": "https://vidsrc.xyz/embed/movie?tmdb=1266127"
-      },
-      {
-        "name": "سيرفر 3 (احتياطي)",
-        "url": "https://multiembed.mov/?video_id=1266127&tmdb=1"
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=124364"
       }
     ]
   },
@@ -195,16 +176,35 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1325734"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1325734"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1325734&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1325734"
+      }
+    ]
+  },
+  {
+    "title": "Ready or Not 2: Here I Come",
+    "poster": "https://image.tmdb.org/t/p/w500/oR1oiQ3YnpWjRE42I0Rb8LBd8Dg.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "السيرفر الأساسي (vidsrc)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1266127"
+      },
+      {
+        "name": "السيرفر السريع (Super)",
+        "url": "https://multiembed.mov/?video_id=1266127&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1266127"
       }
     ]
   },
@@ -214,73 +214,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=85552"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=85552"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=85552&tmdb=1"
-      }
-    ]
-  },
-  {
-    "title": "مشروع هيل ماري",
-    "poster": "https://image.tmdb.org/t/p/w500/58obglIBAtp4xvZG7nvkPpaaCbN.jpg",
-    "category": "أفلام",
-    "episodes": [
-      {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=687163"
       },
       {
-        "name": "سيرفر 2 (سريع)",
-        "url": "https://vidsrc.xyz/embed/movie?tmdb=687163"
-      },
-      {
-        "name": "سيرفر 3 (احتياطي)",
-        "url": "https://multiembed.mov/?video_id=687163&tmdb=1"
-      }
-    ]
-  },
-  {
-    "title": "المفترس الأقوى",
-    "poster": "https://image.tmdb.org/t/p/w500/ryIiQrFfWWosjxLEeynziLEobea.jpg",
-    "category": "أفلام",
-    "episodes": [
-      {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1318447"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
-        "url": "https://vidsrc.xyz/embed/movie?tmdb=1318447"
-      },
-      {
-        "name": "سيرفر 3 (احتياطي)",
-        "url": "https://multiembed.mov/?video_id=1318447&tmdb=1"
-      }
-    ]
-  },
-  {
-    "title": "رجل في قلب النار",
-    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-    "category": "مسلسلات",
-    "episodes": [
-      {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=223386"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
-        "url": "https://vidsrc.xyz/embed/tv?tmdb=223386"
-      },
-      {
-        "name": "سيرفر 3 (احتياطي)",
-        "url": "https://multiembed.mov/?video_id=223386&tmdb=1"
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=85552"
       }
     ]
   },
@@ -290,16 +233,73 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=114922"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=114922"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=114922&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=114922"
+      }
+    ]
+  },
+  {
+    "title": "مشروع هيل ماري",
+    "poster": "https://image.tmdb.org/t/p/w500/58obglIBAtp4xvZG7nvkPpaaCbN.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "السيرفر الأساسي (vidsrc)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=687163"
+      },
+      {
+        "name": "السيرفر السريع (Super)",
+        "url": "https://multiembed.mov/?video_id=687163&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=687163"
+      }
+    ]
+  },
+  {
+    "title": "المفترس الأقوى",
+    "poster": "https://image.tmdb.org/t/p/w500/ryIiQrFfWWosjxLEeynziLEobea.jpg",
+    "category": "أفلام",
+    "episodes": [
+      {
+        "name": "السيرفر الأساسي (vidsrc)",
+        "url": "https://vidsrc.xyz/embed/movie?tmdb=1318447"
+      },
+      {
+        "name": "السيرفر السريع (Super)",
+        "url": "https://multiembed.mov/?video_id=1318447&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1318447"
+      }
+    ]
+  },
+  {
+    "title": "رجل في قلب النار",
+    "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+    "category": "مسلسلات",
+    "episodes": [
+      {
+        "name": "السيرفر الأساسي (vidsrc)",
+        "url": "https://vidsrc.xyz/embed/tv?tmdb=223386"
+      },
+      {
+        "name": "السيرفر السريع (Super)",
+        "url": "https://multiembed.mov/?video_id=223386&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=223386"
       }
     ]
   },
@@ -309,16 +309,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=289219"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=289219"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=289219&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=289219"
       }
     ]
   },
@@ -328,16 +328,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=272432"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=272432"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=272432&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=272432"
       }
     ]
   },
@@ -347,16 +347,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1292695"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1292695"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1292695&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1292695"
       }
     ]
   },
@@ -366,16 +366,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=37854"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=37854"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=37854&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=37854"
       }
     ]
   },
@@ -385,16 +385,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=202411"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=202411"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=202411&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=202411"
       }
     ]
   },
@@ -404,16 +404,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=262280"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=262280"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=262280&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=262280"
       }
     ]
   },
@@ -423,16 +423,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=270476"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=270476"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=270476&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=270476"
       }
     ]
   },
@@ -442,16 +442,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=136315"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=136315"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=136315&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=136315"
       }
     ]
   },
@@ -461,16 +461,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=127865"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=127865"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=127865&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=127865"
       }
     ]
   },
@@ -480,16 +480,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=79744"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=79744"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=79744&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=79744"
       }
     ]
   },
@@ -499,16 +499,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1301421"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1301421"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1301421&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1301421"
       }
     ]
   },
@@ -518,16 +518,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1430077"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1430077"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1430077&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1430077"
       }
     ]
   },
@@ -537,16 +537,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=95557"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=95557"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=95557&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=95557"
       }
     ]
   },
@@ -556,16 +556,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1198994"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1198994"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1198994&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1198994"
       }
     ]
   },
@@ -575,16 +575,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=65942"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=65942"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=65942&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=65942"
       }
     ]
   },
@@ -594,16 +594,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=285838"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=285838"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=285838&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=285838"
       }
     ]
   },
@@ -613,16 +613,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=65930"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=65930"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=65930&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=65930"
       }
     ]
   },
@@ -632,16 +632,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1630423"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1630423"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1630423&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1630423"
       }
     ]
   },
@@ -651,16 +651,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=259702"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=259702"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=259702&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=259702"
       }
     ]
   },
@@ -670,16 +670,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=696393"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=696393"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=696393&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=696393"
       }
     ]
   },
@@ -689,16 +689,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=83533"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=83533"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=83533&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=83533"
       }
     ]
   },
@@ -708,16 +708,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1651233"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1651233"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1651233&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1651233"
       }
     ]
   },
@@ -727,16 +727,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1368337"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1368337"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1368337&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1368337"
       }
     ]
   },
@@ -746,16 +746,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=278113"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=278113"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=278113&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=278113"
       }
     ]
   },
@@ -765,16 +765,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=311858"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=311858"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=311858&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=311858"
       }
     ]
   },
@@ -784,16 +784,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=262388"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=262388"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=262388&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=262388"
       }
     ]
   },
@@ -803,16 +803,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1462229"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1462229"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1462229&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1462229"
       }
     ]
   },
@@ -822,16 +822,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1171145"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1171145"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1171145&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1171145"
       }
     ]
   },
@@ -841,16 +841,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1290821"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1290821"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1290821&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1290821"
       }
     ]
   },
@@ -860,16 +860,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1239198"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1239198"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1239198&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1239198"
       }
     ]
   },
@@ -879,16 +879,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=272715"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=272715"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=272715&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=272715"
       }
     ]
   },
@@ -898,16 +898,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=209867"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=209867"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=209867&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=209867"
       }
     ]
   },
@@ -917,16 +917,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=95479"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=95479"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=95479&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=95479"
       }
     ]
   },
@@ -936,16 +936,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=278573"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=278573"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=278573&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=278573"
       }
     ]
   },
@@ -955,16 +955,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1228710"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1228710"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1228710&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1228710"
       }
     ]
   },
@@ -974,16 +974,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=254498"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=254498"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=254498&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=254498"
       }
     ]
   },
@@ -993,16 +993,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1304313"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1304313"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1304313&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1304313"
       }
     ]
   },
@@ -1012,16 +1012,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=290856"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=290856"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=290856&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=290856"
       }
     ]
   },
@@ -1031,16 +1031,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1273221"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1273221"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1273221&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1273221"
       }
     ]
   },
@@ -1050,16 +1050,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1316092"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1316092"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1316092&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1316092"
       }
     ]
   },
@@ -1069,16 +1069,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1297842"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1297842"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1297842&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1297842"
       }
     ]
   },
@@ -1088,16 +1088,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1212763"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1212763"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1212763&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1212763"
       }
     ]
   },
@@ -1107,16 +1107,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=45790"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=45790"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=45790&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=45790"
       }
     ]
   },
@@ -1126,16 +1126,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=1434"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=1434"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1434&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=1434"
       }
     ]
   },
@@ -1145,16 +1145,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=86031"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=86031"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=86031&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=86031"
       }
     ]
   },
@@ -1164,16 +1164,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1110034"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1110034"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1110034&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1110034"
       }
     ]
   },
@@ -1183,16 +1183,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1084244"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1084244"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1084244&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1084244"
       }
     ]
   },
@@ -1202,16 +1202,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=87917"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=87917"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=87917&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=87917"
       }
     ]
   },
@@ -1221,16 +1221,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=196950"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=196950"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=196950&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=196950"
       }
     ]
   },
@@ -1240,16 +1240,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=203737"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=203737"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=203737&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=203737"
       }
     ]
   },
@@ -1259,16 +1259,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=94997"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=94997"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=94997&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=94997"
       }
     ]
   },
@@ -1278,16 +1278,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=302074"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=302074"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=302074&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=302074"
       }
     ]
   },
@@ -1297,16 +1297,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1450527"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1450527"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1450527&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1450527"
       }
     ]
   },
@@ -1316,16 +1316,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=257994"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=257994"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=257994&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=257994"
       }
     ]
   },
@@ -1335,16 +1335,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1368166"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1368166"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1368166&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1368166"
       }
     ]
   },
@@ -1354,16 +1354,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=277439"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=277439"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=277439&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=277439"
       }
     ]
   },
@@ -1373,16 +1373,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=829487"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=829487"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=829487&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=829487"
       }
     ]
   },
@@ -1392,16 +1392,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=66732"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=66732"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=66732&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=66732"
       }
     ]
   },
@@ -1411,16 +1411,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=75191"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=75191"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=75191&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=75191"
       }
     ]
   },
@@ -1430,16 +1430,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1290417"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1290417"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1290417&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1290417"
       }
     ]
   },
@@ -1449,16 +1449,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1083381"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1083381"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1083381&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1083381"
       }
     ]
   },
@@ -1468,16 +1468,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=270572"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=270572"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=270572&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=270572"
       }
     ]
   },
@@ -1487,16 +1487,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=980431"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=980431"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=980431&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=980431"
       }
     ]
   },
@@ -1506,16 +1506,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=250307"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=250307"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=250307&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=250307"
       }
     ]
   },
@@ -1525,16 +1525,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=454639"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=454639"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=454639&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=454639"
       }
     ]
   },
@@ -1544,16 +1544,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=80867"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=80867"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=80867&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=80867"
       }
     ]
   },
@@ -1563,16 +1563,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=287527"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=287527"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=287527&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=287527"
       }
     ]
   },
@@ -1582,16 +1582,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=949536"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=949536"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=949536&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=949536"
       }
     ]
   },
@@ -1601,16 +1601,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=387"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=387"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=387&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=387"
       }
     ]
   },
@@ -1620,16 +1620,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=245318"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=245318"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=245318&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=245318"
       }
     ]
   },
@@ -1639,16 +1639,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1084242"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1084242"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1084242&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1084242"
       }
     ]
   },
@@ -1658,16 +1658,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1315772"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1315772"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1315772&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1315772"
       }
     ]
   },
@@ -1677,16 +1677,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1159559"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1159559"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1159559&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1159559"
       }
     ]
   },
@@ -1696,16 +1696,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=226637"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=226637"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=226637&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=226637"
       }
     ]
   },
@@ -1715,16 +1715,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=56570"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=56570"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=56570&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=56570"
       }
     ]
   },
@@ -1734,16 +1734,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=969681"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=969681"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=969681&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=969681"
       }
     ]
   },
@@ -1753,16 +1753,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=111110"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=111110"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=111110&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=111110"
       }
     ]
   },
@@ -1772,16 +1772,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=295778"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=295778"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=295778&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=295778"
       }
     ]
   },
@@ -1791,16 +1791,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=262848"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=262848"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=262848&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=262848"
       }
     ]
   },
@@ -1810,16 +1810,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=124101"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=124101"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=124101&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=124101"
       }
     ]
   },
@@ -1829,16 +1829,16 @@
     "category": "مسلسلات",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/tv?tmdb=283952"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/tv?tmdb=283952"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=283952&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedtv?tmdb=283952"
       }
     ]
   },
@@ -1848,16 +1848,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1472638"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1472638"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1472638&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1472638"
       }
     ]
   },
@@ -1867,16 +1867,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=840464"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=840464"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=840464&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=840464"
       }
     ]
   },
@@ -1886,16 +1886,16 @@
     "category": "أفلام",
     "episodes": [
       {
-        "name": "سيرفر 1 (رئيسي)",
-        "url": "https://vidsrc.me/embed/movie?tmdb=1276521"
-      },
-      {
-        "name": "سيرفر 2 (سريع)",
+        "name": "السيرفر الأساسي (vidsrc)",
         "url": "https://vidsrc.xyz/embed/movie?tmdb=1276521"
       },
       {
-        "name": "سيرفر 3 (احتياطي)",
+        "name": "السيرفر السريع (Super)",
         "url": "https://multiembed.mov/?video_id=1276521&tmdb=1"
+      },
+      {
+        "name": "سيرفر الطوارئ (2Embed)",
+        "url": "https://www.2embed.cc/embedmovie?tmdb=1276521"
       }
     ]
   }
