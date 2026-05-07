@@ -4,85 +4,86 @@ import json
 import base64
 import time
 
-# الإعدادات - تأكد من وجود السر MY_GITHUB_TOKEN في إعدادات ريبو GitHub
+# الإعدادات
 GITHUB_TOKEN = os.getenv("MY_GITHUB_TOKEN")
 TMDB_API_KEY = "62571b988e8d17fac56d5240f5610ef0"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
 
-def get_100_working_items():
-    print("🎬 جاري سحب 100 عنصر ودمج روابط 2Embed الشغالة...")
-    results = []
-    
-    # سحب 5 صفحات لضمان الوصول لـ 100 عنصر
+def get_new_content():
+    print("🎬 جاري سحب 100 عنصر جديد...")
+    new_results = []
     for page in range(1, 6):
         try:
             url = f"https://api.themoviedb.org/3/trending/all/week?api_key={TMDB_API_KEY}&language=ar&page={page}"
-            response = requests.get(url, timeout=15).json()
-            
-            for item in response.get('results', []):
+            res = requests.get(url, timeout=15).json()
+            for item in res.get('results', []):
                 tmdb_id = item.get('id')
-                media_type = item.get('media_type', 'movie')
-                title = item.get('title') if media_type == 'movie' else item.get('name')
-                poster_path = item.get('poster_path')
+                m_type = item.get('media_type', 'movie')
+                title = item.get('title') if m_type == 'movie' else item.get('name')
+                if not title or not tmdb_id: continue
 
-                if not title or not tmdb_id:
-                    continue
-
-                # --- دمج الطريقة الصحيحة لسيرفر 2Embed ---
-                if media_type == 'movie':
-                    # الرابط المعتمد للأفلام
+                ep_list = []
+                if m_type == 'movie':
+                    # رابط الفيلم مع محاولة تفعيل لغة الواجهة العربية
                     watch_url = f"https://www.2embed.cc/embedmovie/{tmdb_id}"
+                    ep_list.append({"name": "مشاهدة الفيلم", "url": watch_url})
                 else:
-                    # الرابط المعتمد للمسلسلات (الموسم 1 الحلقة 1)
-                    watch_url = f"https://www.2embed.cc/embedtv/{tmdb_id}&s=1&e=1"
+                    # سحب 15 حلقة للمسلسلات
+                    for i in range(1, 16):
+                        watch_url = f"https://www.2embed.cc/embedtv/{tmdb_id}&s=1&e={i}"
+                        ep_list.append({"name": f"الحلقة {i}", "url": watch_url})
 
-                results.append({
+                new_results.append({
                     "title": title,
-                    "poster": f"https://image.tmdb.org/t/p/w500{poster_path}",
-                    "category": "أفلام" if media_type == 'movie' else "مسلسلات",
-                    "episodes": [
-                        {"name": "تشغيل السيرفر الرئيسي ✅", "url": watch_url}
-                    ]
+                    "poster": f"https://image.tmdb.org/t/p/w500{item.get('poster_path')}",
+                    "category": "أفلام" if m_type == 'movie' else "مسلسلات",
+                    "episodes": ep_list
                 })
-            time.sleep(0.3)
-        except Exception as e:
-            print(f"⚠️ خطأ: {e}")
-            
-    return results
+            time.sleep(0.2)
+        except: continue
+    return new_results
 
-def upload_to_github(new_data):
+def update_github():
     api_url = f"https://api.github.com/repos/{REPO_NAME}/contents/{FILE_PATH}"
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json"
-    }
+    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     
-    # الحصول على SHA للملف الحالي لتحديثه
-    get_res = requests.get(api_url, headers=headers)
-    if get_res.status_code != 200:
-        print("❌ تعذر العثور على الملف")
-        return
-        
-    file_sha = get_res.json()['sha']
+    # 1. جلب البيانات القديمة الموجودة في الملف حالياً
+    res = requests.get(api_url, headers=headers)
+    old_data = []
+    sha = None
     
-    # تحويل البيانات إلى Base64
-    json_content = json.dumps(new_data, indent=2, ensure_ascii=False)
-    encoded_content = base64.b64encode(json_content.encode('utf-8')).decode('utf-8')
+    if res.status_code == 200:
+        file_info = res.json()
+        sha = file_info['sha']
+        content = base64.b64decode(file_info['content']).decode('utf-8')
+        old_data = json.loads(content)
     
+    # 2. جلب البيانات الجديدة
+    new_items = get_new_content()
+    
+    # 3. الدمج بدون تكرار (بناءً على العنوان)
+    existing_titles = {item['title'] for item in old_data}
+    for item in new_items:
+        if item['title'] not in existing_titles:
+            old_data.append(item)
+    
+    # اختياري: الاحتفاظ بآخر 500 فيلم فقط لكي لا يصبح الملف ثقيلاً جداً
+    final_data = old_data[-500:]
+
+    # 4. الرفع إلى GitHub
+    content_encoded = base64.b64encode(json.dumps(final_data, indent=2, ensure_ascii=False).encode('utf-8')).decode('utf-8')
     payload = {
-        "message": "دمج سيرفر 2Embed لـ 100 عنصر",
-        "content": encoded_content,
-        "sha": file_sha
+        "message": f"إضافة أفلام جديدة (المجموع الحالي: {len(final_data)})",
+        "content": content_encoded,
+        "sha": sha
     }
     
     put_res = requests.put(api_url, headers=headers, json=payload)
     if put_res.status_code in [200, 201]:
-        print(f"🚀 تم بنجاح! موقعك الآن يحتوي على {len(new_data)} فيلم ومسلسل بروابط 2Embed.")
+        print(f"🚀 تم التحديث! الملف الآن يحتوي على {len(final_data)} فيلم ومسلسل.")
     else:
         print(f"❌ فشل الرفع: {put_res.text}")
 
 if __name__ == "__main__":
-    final_results = get_100_working_items()
-    if final_results:
-        upload_to_github(final_results)
+    update_github()
