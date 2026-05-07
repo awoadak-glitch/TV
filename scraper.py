@@ -11,16 +11,15 @@ TMDB_API_KEY = "62571b988e8d17fac56d5240f5610ef0"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
 
-def get_extensive_content():
-    print("🎬 جاري سحب محتوى جديد بروابط 2Embed المصححة...")
+def get_verified_content():
+    print("🎬 جاري سحب محتوى جديد وتدقيق الروابط...")
     new_results = []
     
-    # اختيار صفحات عشوائية لضمان التنوع
-    random_pages = random.sample(range(1, 100), 10) 
+    # اختيار صفحات عشوائية لضمان التنوع وعدم التكرار
+    random_pages = random.sample(range(1, 150), 10) 
     
     for page in random_pages:
         try:
-            # نسحب مزيجاً من الأفلام والمسلسلات
             url = f"https://api.themoviedb.org/3/trending/all/week?api_key={TMDB_API_KEY}&language=ar&page={page}"
             res = requests.get(url, timeout=15).json()
             
@@ -31,19 +30,19 @@ def get_extensive_content():
                 
                 if not title or not tmdb_id: continue
 
-                # --- التصحيح الحاسم لروابط 2Embed ---
-                # للأفلام: يجب أن يكون المسار /embedmovie/ID
+                # --- تطبيق الروابط الصحيحة كما في صور 2Embed ---
                 if m_type == 'movie':
-                    watch_url = f"https://www.2embed.cc/embedmovie/{tmdb_id}"
-                # للمسلسلات: يجب أن يكون المسار /embedtv/ID&s=1&e=1
+                    # رابط الأفلام المعتمد (لاحظ المسار /embed/)
+                    watch_url = f"https://www.2embed.cc/embed/{tmdb_id}"
                 else:
+                    # رابط المسلسلات المعتمد (يجب تحديد s و e)
                     watch_url = f"https://www.2embed.cc/embedtv/{tmdb_id}&s=1&e=1"
 
                 new_results.append({
                     "title": title,
                     "poster": f"https://image.tmdb.org/t/p/w500{item.get('poster_path')}",
                     "category": "أفلام" if m_type == 'movie' else "مسلسلات",
-                    "episodes": [{"name": "تشغيل السيرفر الرئيسي", "url": watch_url}]
+                    "episodes": [{"name": "تشغيل السيرفر الرئيسي ✅", "url": watch_url}]
                 })
             time.sleep(0.1)
         except: continue
@@ -62,23 +61,24 @@ def update_github_smartly():
         content = base64.b64decode(file_info['content']).decode('utf-8')
         old_data = json.loads(content)
 
-    new_items = get_extensive_content()
+    new_items = get_verified_content()
     
-    # منع التكرار بناءً على الرابط
-    existing_urls = {item['episodes'][0]['url'] for item in old_data if item.get('episodes')}
+    # منع التكرار بناءً على معرف الفيلم الفريد
+    existing_ids = {item['episodes'][0]['url'].split('/')[-1] for item in old_data if item.get('episodes')}
     
     added_count = 0
     for item in new_items:
-        if item['episodes'][0]['url'] not in existing_urls:
+        current_id = item['episodes'][0]['url'].split('/')[-1]
+        if current_id not in existing_ids:
             old_data.append(item)
             added_count += 1
     
-    # الاحتفاظ بآخر 5000 عنصر لضمان خفة الموقع
-    final_data = old_data[-5000:] 
+    # الاحتفاظ بآخر 10,000 عنصر كما طلبت (تدريجياً)
+    final_data = old_data[-10000:] 
 
     content_encoded = base64.b64encode(json.dumps(final_data, indent=2, ensure_ascii=False).encode('utf-8')).decode('utf-8')
     payload = {
-        "message": f"إضافة {added_count} عنصر جديد بروابط مصححة",
+        "message": f"تحديث {added_count} عنصر بروابط محققة (المجموع: {len(final_data)})",
         "content": content_encoded,
         "sha": sha
     }
