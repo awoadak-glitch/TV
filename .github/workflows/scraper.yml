@@ -1,0 +1,29 @@
+name: Video Scraper Bot
+on:
+  workflow_dispatch:
+    inputs:
+      target_url:
+        description: 'ضع رابط الحلقة هنا'
+        required: true
+      category:
+        description: 'التصنيف'
+        default: 'أنمي'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install
+        run: pip install requests beautifulsoup4 cloudscraper
+
+      - name: Run
+        run: python scraper.py
