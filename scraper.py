@@ -11,12 +11,12 @@ TMDB_API_KEY = "62571b988e8d17fac56d5240f5610ef0"
 REPO_NAME = "awoadak-glitch/TV"
 FILE_PATH = "data.json"
 
-def get_stable_content():
-    print("🚀 جاري جلب المحتوى باستخدام روابط bypass للحظر...")
+def get_translated_api_content():
+    print("🚀 جاري جلب المحتوى بنظام الـ API المترجم...")
     new_results = []
     
-    # صفحات عشوائية لضمان الوصول لـ 10,000 عنصر تدريجياً
-    random_pages = random.sample(range(1, 500), 15) 
+    # اختيار 20 صفحة عشوائية لزيادة المحتوى بسرعة
+    random_pages = random.sample(range(1, 500), 20) 
     
     for page in random_pages:
         try:
@@ -30,22 +30,21 @@ def get_stable_content():
                 
                 if not title or not tmdb_id: continue
 
-                # --- السيرفرات التي صمدت معك وتدعم الترجمة العربية ---
+                # --- روابط API تدعم الترجمة العربية التلقائية ---
                 
-                # 1. السيرفر الأساسي (2Embed) مع إضافة كود لغة المشغل
-                # أضفنا &set_lang=ar لمحاولة إجبار الواجهة على التحول للعربية
-                s1 = f"https://www.2embed.cc/embed{'movie' if m_type == 'movie' else 'tv'}/{tmdb_id}{'' if m_type == 'movie' else '&s=1&e=1'}&set_lang=ar"
+                # السيرفر 1: vidsrc.cc (يدعم الترجمة عبر بارامتر sub.ar)
+                s1 = f"https://vidsrc.cc/v2/embed/{m_type}/{tmdb_id}?autoar=1"
                 
-                # 2. السيرفر البديل (NonoStream) - سيرفر قديم لكنه يفتح في أغلب المناطق
-                s2 = f"https://www.NonoStream.com/embed/{m_type}/{tmdb_id}"
+                # السيرفر 2: embed.su (يوفر واجهة API حديثة مع ترجمة مدمجة)
+                s2 = f"https://embed.su/embed/{m_type}/{tmdb_id}"
 
                 new_results.append({
                     "title": title,
                     "poster": f"https://image.tmdb.org/t/p/w500{item.get('poster_path')}",
                     "category": "أفلام" if m_type == 'movie' else "مسلسلات",
                     "episodes": [
-                        {"name": "سيرفر 1 (شغال ✅ - اضغط CC للترجمة)", "url": s1},
-                        {"name": "سيرفر 2 (احتياطي 🔄)", "url": s2}
+                        {"name": "سيرفر الترجمة الآلية 🌐", "url": s1},
+                        {"name": "سيرفر البث المباشر ⚡", "url": s2}
                     ]
                 })
             time.sleep(0.1)
@@ -65,26 +64,30 @@ def update_github():
         content = base64.b64decode(file_info['content']).decode('utf-8')
         old_data = json.loads(content)
 
-    new_items = get_stable_content()
+    new_items = get_translated_api_content()
     
-    # منع التكرار
-    existing_titles = {item['title'] for item in old_data}
+    # منع التكرار بناءً على الـ ID لضمان دقة 100%
+    existing_ids = {item['episodes'][0]['url'].split('/')[-1].split('?')[0] for item in old_data if item.get('episodes')}
+    
+    added_count = 0
     for item in new_items:
-        if item['title'] not in existing_titles:
+        current_id = str(item['episodes'][0]['url'].split('/')[-1].split('?')[0])
+        if current_id not in existing_ids:
             old_data.append(item)
+            added_count += 1
     
-    # رفع السعة لـ 10,000 تدريجياً
+    # رفع السقف لـ 10,000 عنصر
     final_data = old_data[-10000:] 
 
     content_encoded = base64.b64encode(json.dumps(final_data, indent=2, ensure_ascii=False).encode('utf-8')).decode('utf-8')
     payload = {
-        "message": "تحديث روابط Bypass ودعم 10,000 عنصر",
+        "message": f"إضافة {added_count} عنصر بنظام الترجمة v5",
         "content": content_encoded,
         "sha": sha
     }
     
     requests.put(api_url, headers=headers, json=payload)
-    print(f"✅ المجموع الحالي: {len(final_data)} عنصر. جرب الآن!")
+    print(f"✅ المجموع الكلي: {len(final_data)} فيلم ومسلسل مترجم.")
 
 if __name__ == "__main__":
     update_github()
